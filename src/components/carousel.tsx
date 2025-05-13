@@ -11,12 +11,11 @@ import React from "react";
 
 
 const imagensTrabalho = [
+  "/imagem5.jpeg",
   "/imagem1.jpg",
+  "/imagem3.jpeg",
   "/imagem2.jpg",
-  "/imagem2.jpg",
-  "/imagem2.jpg",
-  "/imagem2.jpg",
-  "/imagem2.jpg",
+  "/imagem4.jpeg",
 ];
 
 
@@ -41,9 +40,9 @@ export default function CarouselTrabalhos() {
   }, [api])
   
   return (
-    <section className="px-4 py-8">
+    <section className="px-4 py-8 overflow-x-hidden relative">
       <h2 className="text-2xl font-bold mb-6 text-center">Alguns de Nossos Trabalhos</h2>
-      <Carousel setApi={setApi} className="w-full max-w-4xl mx-auto">
+      <Carousel setApi={setApi} className="w-full max-w-4xl mx-auto relative overflow-hidden">
         <CarouselContent>
           {imagensTrabalho.map((src, index) => (
             <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3" key={index}>
@@ -52,7 +51,7 @@ export default function CarouselTrabalhos() {
                 <img
                   src={src}
                   alt={`Trabalho ${index + 1}`}
-                  className="rounded-lg w-full h-auto object-cover max-h-[400px]"
+                  className="rounded-lg w-full h-40 object-cover max-h-[400px]"
                 />
 
               </div>
@@ -63,7 +62,7 @@ export default function CarouselTrabalhos() {
         <CarouselNext />
       </Carousel>
       <div className="py-2 text-center text-sm ">
-        Slide {current} de {count}
+        Slide {current}
       </div>
     </section>
   );

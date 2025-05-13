@@ -8,7 +8,7 @@ export default function Contatos() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <a
-                        href="https://wa.me/5511999999999"
+                        href="https://wa.me/5511984478742?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20seu%20servi%C3%A7o%20e%20gostaria%20de%20saber%20mais."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-4 bg-green-100 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
@@ -18,7 +18,7 @@ export default function Contatos() {
                     </a>
 
                     <a
-                        href="mailto:contato@vidracariaxyz.com"
+                        href="mailto:comercial01@dbellazzividros.com.br"
                         className="p-4 bg-blue-200 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
                     >
                         <Mail className="text-blue-700 w-6 h-6" />
@@ -26,17 +26,7 @@ export default function Contatos() {
                     </a>
 
                     <a
-                        href="https://facebook.com/vidracariaxyz"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-4 bg-blue-200 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
-                    >
-                        <Facebook className="text-blue-700 w-6 h-6" />
-                        <p className="text-blue-700 font-bold">Facebook</p>
-                    </a>
-
-                    <a
-                        href="https://instagram.com/vidracariaxyz"
+                        href="https://instagram.com/DbellazziVidros"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-4 bg-pink-100 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
@@ -46,7 +36,7 @@ export default function Contatos() {
                     </a>
 
                     <a
-                        href="https://instagram.com/vidracariaxyz"
+                        href="www.dbellazzividros.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-4 bg-gray-200 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
