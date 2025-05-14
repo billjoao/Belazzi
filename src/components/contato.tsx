@@ -1,4 +1,4 @@
-import { Chrome, Facebook, Instagram, Mail, MessageCircleMore } from "lucide-react";
+import { Chrome, Instagram, Mail, MessageCircleMore } from "lucide-react";
 
 export default function Contatos() {
     return (
