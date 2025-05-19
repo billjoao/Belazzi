@@ -15,7 +15,7 @@ export default function App() {
       </header>
 
       {/* hero */}
-      <section className="relative h-80 bg-[url('/bghero1.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+      <section className="relative h-80 bg-[url('/imagem1.jpeg')] bg-cover bg-center flex items-center justify-center text-white">
         <div className="bg-black/50 p-4 rounded">
           <h2 className="text-2xl font-bold text-center">VIDROS QUE VESTEM A SUA VARANDA</h2>
         </div>

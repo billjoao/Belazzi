@@ -36,8 +36,8 @@ export default function Contatos() {
                     </a>
 
                     <a
-                        href="www.dbellazzividros.com"
-                        target="_blank"
+                        href="https://www.dbellazzividros.com.br/"
+                        target="_blan   k"
                         rel="noopener noreferrer"
                         className="p-4 bg-gray-200 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
                     >

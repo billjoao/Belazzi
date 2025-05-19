@@ -11,11 +11,14 @@ import React from "react";
 
 
 const imagensTrabalho = [
-  "/imagem5.jpeg",
-  "/imagem1.jpg",
-  "/imagem3.jpeg",
+  "/imagem1.jpeg",
   "/imagem2.jpg",
+  "/imagem3.jpeg",
   "/imagem4.jpeg",
+  "/imagem5.jpeg",
+  "/imagem6.jpeg",
+  "/imagem7.jpeg",
+  
 ];
 
 
