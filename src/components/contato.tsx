@@ -37,7 +37,7 @@ export default function Contatos() {
 
                     <a
                         href="https://www.dbellazzividros.com.br/"
-                        target="_blan   k"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="p-4 bg-gray-200 rounded-xl shadow text-center flex flex-col items-center gap-2 transition transform hover:scale-103 duration-200"
                     >
