@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=M+PLUS+Rounded+1c&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
 
 /* paleta de cores
 azul500 - #58a6b2
 azul700 - #005e69
 azul950 - #003741 
 */
+
+.dbelazi {
+  font-family: Anton, sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
