@@ -11,7 +11,7 @@ export default function App() {
       {/* header */}
       <header className="flex items-center bg-[#58a6b2] justify-between px-4 py-3 shadow-md">
         <img src="/logo.png" alt="Logo" className="h-15" />
-        <h1 className="dbelazi text-3xl font-bold capitalize">dbellazzi vidros</h1>
+        <h1 className="dbelazi text-3xl font-bold capitalize">d'bellazzi vidros</h1>
       </header>
 
       {/* hero */}
